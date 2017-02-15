@@ -10,6 +10,25 @@
 			ul {
 				list-style-type: none;
 			}
+			table,th,td{
+				
+				background-color: #eee;
+				border-collapse: collapse;
+			}
+			#separador{
+				background-color: #eee;
+				height: 20px;
+			}
+			#separador2{
+				background-color: #eee;
+				height: 10px;
+			}
+			#abajo{
+				background-color: #2F4F4F;
+			}
+			
+
+
 		</style>
 	</head>
 	<body>
@@ -17,28 +36,33 @@
 	<div class="container">
 	
 		
-		<div class="container" style="padding-bottom: 50px;">
+		<div class="container" style="padding-bottom: 25px;">
 			<!-- icono upna -->
 			<div class="col-md-5 text-left">
-				<img src="icono_upna.jpg">  </img>
+				<img class="img-responsive" src="icono_upna.jpg">  </img>
 			</div>
 			<!-- menu de arriba -->
 			<div class="col-md-7">
 				
-				<div class="col-md-3 ">
-				<p> Portal de servicios </p>
+				<div class="col-md-3 text-left">
+				<button type='button' class="btn btn-secondary">Portal servicios</button>
 				</div>
 				
-				<div class="col-md-3 ">
-				<p> Bibliotecam </p>
+				<div class="col-md-2 text-left">
+				<button type='button' class="btn btn-secondary">Biblioteca</button>
 				</div>
 				
-				<div class="col-md-3 ">
-				<p> Sede electronica </p>
+				<div class="col-md-3 text-left">
+				<button type='button' class="btn btn-secondary">Sede electronica</button>
 				</div>
 				
 				<div class="col-md-3 input-group input-group-md">
-					<input type="Busqueda" class="form-control" placeholder="Busqueda">				
+					<div class="col-md-9 text-left">
+						<input type="Busqueda" class="form-control" placeholder="Buscar">
+					</div>
+					<div class="col-md-3">
+						<button type='button' class="btn btn-secondary"><img src="buscar.jpg"></img></button>
+					</div>									
 				</div>
 				
 			</div>
@@ -56,52 +80,52 @@
 						</button>
 					</div>
 					<div class='nav navbar-nav navbar-right collapse navbar-collapse col-md-12 '>
-						<div class='col-md-2'>
+						<div class='col-md-2 col-sm-4'>
 							<ul>
-							  <a href ='#'>LA UNIVERSIDAD</a>						  
-							  <li><a href ='#'>Campus</a></li>
-							  <li><a href ='#'>Normativa</a></li>
-							  <li><a href ='#'>Plan estrategico</a></li>
+							  <h5><a href ='#'><strong>LA UNIVERSIDAD</strong></a></h5>						  
+							  <li class="hidden-xs"><a href ='#'>Campus</a></li>
+							  <li class="hidden-xs"><a href ='#'>Normativa</a></li>
+							  <li class="hidden-xs"><a href ='#'>Plan estrategico</a></li>
 							</ul>
 						</div>
-						<div class='col-md-2'>
+						<div class='col-md-2 col-sm-4'>
 							<ul>
-							  <a href ='#'>ESTUDIOS</a>						  
-							  <li><a href ='#'>Grado</a></li>
-							  <li><a href ='#'>Master</a></li>
-							  <li><a href ='#'>Doctorado</a></li>
+							  <h5><a href ='#'><strong>ESTUDIOS</strong></a></h5>			  
+							  <li class="hidden-xs"><a href ='#'>Grado</a></li>
+							  <li class="hidden-xs"><a href ='#'>Master</a></li>
+							  <li class="hidden-xs"><a href ='#'>Doctorado</a></li>
 							</ul>
 						</div>
-						<div class='col-md-2'>
+						<div class='col-md-2 col-sm-4'>
 							<ul>
-							  <a href ='#'>INVESTIGACION</a>	
-							  <li><a href ='#'>Catedras</a></li>
-							  <li><a href ='#'>Grupos de investigacion</a></li>
-							  <li><a href ='#'>Ayudas y convocatorias</a></li>
+							  <h5><a href ='#'><strong>INVESTIGACION</strong></a></h5>	
+							  <li class="hidden-xs"><a href ='#'>Catedras</a></li>
+							  <li class="hidden-xs"><a href ='#'>Grupos de investigacion</a></li>
+							  <li class="hidden-xs"><a href ='#'>Ayudas y convocatorias</a></li>
 							</ul>
 						</div>
-						<div class='col-md-2'>
+						<div class='col-md-2 col-sm-4'>
 							<ul>
-								 <a href ='#'>SERVICOS</a>
-								 <li><a href ='#'>Deportes</a></li>
-								 <li><a href ='#'>Cultura</a></li>
-								 <li><a href ='#'>Euskera</a></li>
+								 <h5><a href ='#'><strong>SERVICOS</strong></a></h5>
+								 <li class="hidden-xs"><a href ='#'>Deportes</a></li>
+								 <li class="hidden-xs"><a href ='#'>Cultura</a></li>
+								 <li class="hidden-xs"><a href ='#'>Euskera</a></li>
 							</ul>
 						</div>
-						<div class='col-md-2'>
+						<div class='col-md-2 col-sm-4'>
 							<ul>
-								<a href ='#'>INTERNACIONAL</a>
-								<li><a href ='#'>Relaciones internacionales</a></li>
-								<li><a href ='#'>Movilidad</a></li>
-								<li><a href ='#'>Cooperacion</a></li>
+								<h5><a href ='#'><strong>INTERNACIONAL</strong></a></h5>
+								<li class="hidden-xs"><a href ='#'>Relaciones internacionales</a></li>
+								<li class="hidden-xs"><a href ='#'>Movilidad</a></li>
+								<li class="hidden-xs"><a href ='#'>Cooperacion</a></li>
 							</ul>
 						</div>
-						<div class='col-md-2'>
+						<div class='col-md-2 col-sm-4' style="background-color:#A09896;">
 							<ul>
-								<a href ='#'>PERFILES</a>
-								<li><a href ='#'>Estudiantes</a></li>
-								<li><a href ='#'>Estudiante internacional</a></li>
-								<li><a href ='#'>Nuevos estudiantes</a></li>
+								<h5><a href ='#'><strong>PERFILES</strong></a></h5>
+								<li class="hidden-xs"><a href ='#'>Estudiantes</a></li>
+								<li class="hidden-xs"><a href ='#'>Estudiante internacional</a></li>
+								<li class="hidden-xs"><a href ='#'>Nuevos estudiantes</a></li>
 							</ul>
 						</div>
 					</div>
@@ -112,133 +136,228 @@
 		
 		
 		<!-- imagen estatica-->
-		<div class="container" style="padding-top: 50px; padding-bottom: 50px;">		
-			<img src="imagen_estatica.jpg">  </img>		
-		</div>
+		<div class="container" style="padding-top: 25px; padding-bottom: 25px; position: relative">		
+			<div class="hidden-xs" style="position: absolute; padding-top: 268px; padding-left: 74px;">
+				<button type="button" class="btn btn-info"> Conocer+ </button>
+			</div>
+			<div class="visible-xs"  style="position: absolute; padding-top: 258px; padding-left: 22px;">
+				<button type="button" class="btn btn-info"> Conocer+ </button>
+			</div>
+			<img class="hidden-sm hidden-xs" src="imagen_estatica.jpg">  </img>	
+			<img class="visible-sm" src="imagen_estatica_ms.jpg">  </img>	
+			<img class="visible-xs"  src="imagen_estatica_xs.jpg">  </img>	
+			
+		</div> 
+
 		
 		<!-- noticias -->
-		<div class="container" style="padding-bottom: 50px;">
-			<div class="col-md-12">			
-				<div class="col-md-4">
-				<p> NOTICIA </p>
-				<div class="col-md-12">
-					<div class="col-md-5">
-						<img src="noticia.jpg">  </img>
-					</div>
-					<div class="col-md-7">
-						<p>8 de febrero de 2017</p>
-						<p> La UPNA selecciona diez propuestas de la comunidad universitaria para enriquecer la vida cultural de la instituci?n
-							Las actividades, desarrolladas por profesorado, personal de administraci?n y estudiantes, tendr?n lugar a lo largo de este curso </p>
-					</div>
-				</div>
-				</div>
-				
-				<div class="col-md-4">
-				<p> AGENDA </p>
-				<p> 08 Febrero </p>
-				<p> 14 Febrero </p>
-				<a href="#">Eventos +</a>
+		<div class="container" style="padding-bottom: 20px;">
+					
+				<div class="col-md-6 col-sm-12">
+						<div class="col-md-12">
+							<p><strong>NOTICIA</strong></p>
+						</div>
+						<div class="col-md-5 col-sm-4">							
+							<img class="img-responsive" src="noticia.jpg">  </img>
+						</div>
+						<div class="col-md-6">
+							<p style="padding-left: 10px;">8 de febrero de 2017</p>
+							<p class="text-justify" style="padding-left: 10px;"> La UPNA selecciona diez propuestas de la comunidad universitaria para enriquecer la vida cultural de la instituci?n
+								Las actividades, desarrolladas por profesorado, personal de administraci?n y estudiantes, tendr?n lugar a lo largo de este curso </p>
+						</div>
+					
 				</div>
 				
-				<div class="col-md-4">
-					<p> INFORMACION ACADEMICA </p>
-					<ul>				
-						<li><a href ='#'>Jornada de puertas abiertas</a></li>
-						<li><a href ='#'>Prueba de acceso (Evau)</a></li>
-						<li><a href ='#'>Oferta de grados</a></li>
-						<li><a href ='#'>Parametros de ponderacion</a></li>
-					</ul>
+				<div class="col-md-3 col-sm-6">
+					<p><strong>AGENDA</strong></p>
+					<p>08 Febrero </p>
+					<p> 14 Febrero </p>
+					<a href="#">Eventos +</a>
+				</div>
+				
+				<div class="col-md-3 col-sm-6">
+					<p><strong>ACCESO</strong> </p>
+					<table>				
+						<tr><th><a href ='#'>Jornada de puertas abiertas</a></th></tr>
+						<tr><th><a href ='#'>Prueba de acceso (Evau)</a></th></tr>
+						<tr><th><a href ='#'>Oferta de grados</a></th></tr>
+						<tr><th><a href ='#'>Parametros de ponderacion</a></th></tr>
+					</table>
 				</div>				
-			</div>
+			
+		</div>
+		<div id="separador" class="container">
+		
 		</div>
 		<!-- menu 3-->
-		<div class="container" style="padding-bottom: 50px;">
+		<div class="container" style="padding-bottom: 20px; padding-top: 20px;">
 			<div class="col-md-12">
-				<div class="col-md-3">
-				<p> PORTAL DE TRANSPARENCIA </p>
-				<img src="portal_transparencia.jpg">  </img>
-				<button type="button" class="btn"> Conocer+ </button>				
+				<div class="col-md-3 col-sm-6 text-left">
+					<p><strong>PORTAL DE TRANSPARENCIA</strong> </p>
+					<img class="img-responsive" src="portal_transparencia.jpg">  </img>
+					<button type="button"class="btn btn-info"> Conocer+ </button>				
 				</div>
 				
-				<div class="col-md-3">
-				<p> INSTITUTOS DE INVESTIGACION </p>
-				<img src="investigacion.jpg">  </img>
-				<button type="button" class="btn"> Conocer+ </button>				
+				<div class="col-md-3 col-sm-6 text-left">
+					<p><strong>INSTITUTOS DE INVESTIGACION</strong> </p>
+					<img class="img-responsive" src="investigacion.jpg">  </img>
+					<button type="button" class="btn btn-info"> Conocer+ </button>				
 				</div>
 				
-				<div class="col-md-3">
-				<p> UPNA, TU MEJOR INVERSION </p>
-				<img src="inversion.jpg">  </img>
-				<button type="button" class="btn"> Conocer+ </button>				
+				<div class="col-md-3 col-sm-6 text-left">
+					<p><strong>UPNA, TU MEJOR INVERSION</strong> </p>
+					<img class="img-responsive" src="inversion.jpg">  </img>
+					<button type="button" class="btn btn-info"> Conocer+ </button>				
 				</div>
 				
-				<div class="col-md-3">
-				<p> CONVOCATORIAS </p>
-				
+				<div class="col-md-3 col-sm-6 text-left">
+					<p><strong>CONVOCATORIAS</strong> </p>
+					<ul class="text-left">
+						<h5><a href ='#'><strong>Personal +</strong></a></h5>
+						<li><a href ='#'>Profesorado</a></li>
+						<li><a href ='#'>Investigadores</a></li>
+						<li><a href ='#'>PAS</a></li>
+						<h5><a href ='#'><strong>Perfil del contratante +</strong></a></h5>
+					</ul>
 				</div>
 			</div>
+		</div>
+		<div id="separador" class="container">
+		
 		</div>
 		<!-- menu 4 -->
-		<div class="container" style="padding-bottom: 50px;">
+		<div class="container" style="padding-bottom: 20px; padding-top: 20px;">
 			<div class="col-md-12">
-				<div class="col-md-3">
-				<p> VIVE LA UNIVERSIDAD </p>
-				<img src="vive.jpg">  </img>	
-				<button type="button" class="btn"> Conocer+ </button>
+				<div class="col-md-3 col-sm-6 text-left">
+					<p><strong>VIVE LA UNIVERSIDAD</strong> </p>
+					<img class="img-responsive" src="vive.jpg">  </img>	
+					<button type="button" class="btn btn-info "> Conocer+ </button>
 				</div>
 				
-				<div class="col-md-3">
-				<p> CIENCIA EN EL BAR </p>
-				<img src="bar.jpg">  </img>	
-				<button type="button" class="btn"> Conocer+ </button>
+				<div class="col-md-3 col-sm-6  text-left">
+					<p><strong>CIENCIA EN EL BAR</strong> </p>
+					<iframe width="210" height="130" src="https://www.youtube.com/embed/_TF_ig8xe64" frameborder="0" allowfullscreen></iframe>			
+					<button type="button" class="btn btn-info"> Conocer+ </button>
 				</div>
 				
-				<div class="col-md-3">
-				<p> CONGRESOS </p>
-				<button type="button" class="btn"> Congresos+ </button>
+				<div class="col-md-3 col-sm-7  text-left">
+					<p><strong>CONGRESOS</strong> </p>
+					<div id="separador2" class="container col-md-12 col-sm-12 ">		
+					</div>
+					<h5><a href ='#'><strong>II Jornadas Vitivinicolas</strong></a></h5>
+					<p><small>19 de enero de 2017</small> </p>
+					<div id="separador2" class="container col-md-12 col-sm-12">		
+					</div>
+					<h5><a href ='#'><strong>Jornadas sobre Ganado de Lidia y Tauromaquia</strong></a></h5>
+					<p><small>24 de febrero de 2017 </small> </p>
+					<div id="separador2" class="container col-md-12 col-sm-12">		
+					</div>
+					<button type="button" class="btn btn-info"> Congresos+ </button>	
 				</div>
 				
-				<div class="col-md-3">
-				<p> CALENDARIO ACADEMICO </p>
-				<img src="calendario.jpg">  </img>	
-				<button type="button" class="btn"> Conocer+ </button>
+				<div class="col-md-3 col-sm-5  text-left">
+					<p><strong>CALENDARIO ACADEMICO</strong> </p>
+					<img class="img-responsive" src="calendario.jpg">  </img>	
+					<button type="button" class="btn btn-info"> Conocer+ </button>
 				</div>
 			</div>
 		</div>
+
 		<!-- imagen estatica 2 -->
 		<div class="container" style="padding-bottom: 50px;">
-			<img src="imagen_estatica_2.jpg">  </img>
+			<img class="img-responsive" src="imagen_estatica_2.jpg">  </img>
 		</div>	
 
 		<!-- imagen estatica 3 -->
 		<div class="container" style="padding-bottom: 50px;">
 			<div class="col-md-12">
-				<div class="col-md-8">
-				<p> TWITTER </p>
+				<div class="col-md-3 col-sm-12">
+				<p> TWITTER: La UPNA selecciona 10 propuestas culturales de la comunidad universitaria ?Con?celas todas! http://bit.ly/2lnIi8y </p>
 				</div>
 				
-				<div class="col-md-4">
-				<p> ICONOS YOUT... </p>
+				<div class="col-md-4 col-sm-12" style="margin-right:0px; float:right;">
+					<img class="img-responsive" src="iconos.jpg"><img>
 				</div>
 			</div>		
 		</div>
 		<!-- menu final -->
-		<div class="container" style="padding-bottom: 50px;">
-			<div class="col-md-3">
-			<p>LA UNIVERSIDAD </p>
+		<div id="abajo" class="container" style="padding-bottom: 50px;">
+			<div class="col-md-2 col-sm-4 col-md-offset-1 ">
+				<ul>
+				  <h5><a href ='#'><strong>LA UNIVERSIDAD</strong></a></h5>			  
+				  <li class="hidden-xs"><a href ='#'>Campus</a></li>
+				  <li class="hidden-xs"><a href ='#'>Departamentos</a></li>
+				  <li class="hidden-xs"><a href ='#'>Actualidad</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<div class="col-md-12">
+					<ul>
+					  <h5><a href ='#'><strong>ESTUDIOS</strong></a></h5>			  
+					  <li class="hidden-xs"><a href ='#'>Grado</a></li>
+					  <li class="hidden-xs"><a href ='#'>Master</a></li>
+					  <li class="hidden-xs"><a href ='#'>Doctorado</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-12">
+					<ul>
+					  <h5><a href ='#'><strong>INVESTIGACION</strong></a></h5>			  
+					  <li class="hidden-xs"><a href ='#'>Grupos</a></li>
+					  <li class="hidden-xs"><a href ='#'>Institutos</a></li>
+					  <li class="hidden-xs"><a href ='#'>Centro I+D</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-4">
+				<div class="col-md-12">
+					<ul>
+					  <h5><a href ='#'><strong>SERVICIOS</strong></a></h5>			  
+					  <li class="hidden-xs"><a href ='#'>Apoyo al estudiante</a></li>
+					  <li class="hidden-xs"><a href ='#'>Servicios generales</a></li>
+					  <li class="hidden-xs"><a href ='#'>Deportes</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-12">
+					<ul>
+					  <h5><a href ='#'><strong>INTERNACIONALIZACION</strong></a></h5>			  
+					  <li class="hidden-xs"><a href ='#'>Movilidad</a></li>
+					  <li class="hidden-xs"><a href ='#'>Cooperacion</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-6">
+				<div class="col-md-12">
+					<ul>
+					  <h5><a href ='#'><strong>FUNDACION UNIVERSIDAD SOCIEDAD</strong></a></h5>			  
+					  <li class="hidden-xs"><a href ='#'>Empleo y practicas</a></li>
+					  <li class="hidden-xs"><a href ='#'>Alumni</a></li>
+					  <li class="hidden-xs"><a href ='#'>Formacion</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-12">
+					<ul>
+					  <h5><a href ='#'><strong>UPNA 2.0</strong></a></h5>			  
+					  <li class="hidden-xs"><a href ='#'>Twitter</a></li>
+					  <li class="hidden-xs"><a href ='#'>YouTube</a></li>
+					  <li class="hidden-xs"><a href ='#'>Flickr</a></li>
+					</ul>
+				</div>
+			</div>
+		
+			
+			<div class="col-md-2 col-sm-6">
+				<ul>
+				  <h5><a href ='#'><strong>DONDE ESTAMOS</strong></a></h5>			  
+				  <li class="hidden-xs"><a href ='#'>Campus Pamplona-Iruña</a></li>
+				  <li class="hidden-xs"><a href ='#'>Campus Tudela</a></li>
+				</ul>
 			</div>
 			
-			<div class="col-md-3">
-			<p> ESTUDIOS </p>
-			</div>
 			
-			<div class="col-md-3">
-			<p> INVESTIGACION </p>
-			</div>
 			
-			<div class="col-md-3">
-			<p> SERVICIOS... </p>
-			</div>
 		</div>
 	</div>
 	</body>
